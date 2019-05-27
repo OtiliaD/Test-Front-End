@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Travel reservation form</title>
+</head>
+
+<body>
+    <h1><b>Travel reservation form</b></h1>
+    <p><b>* denotes mandatory</b></p>
+    <form>
+        <label>Full name*: </label>
+        </br>
+        <input type="text" name="Full name" placeholder="FirstName LastName" id="name" required>
+        </br>
+        <label>Email address*: </label>
+        </br>
+        <input type="email" name="email" placeholder="EMAIL_ADDRESS" id="email" required>
+        </br>
+        <label>Select Tour Package* :</label>
+        </br>
+        <select id="Tour Package" name="package" required>
+            <option value="Goa">Goa</option>
+            <option value="Gob">Gob</option>
+            <option value="Got">GoT</option>
+        </select>
+        </br>
+        <label>Arrival date*:</label>
+        </br>
+        <input type="date" id="date" name="date" required>
+        </br>
+        <label>Number of persons*:</label>
+        </br>
+        <input type="number" id="persons" min="1" name="persons" placeholder="UNKNOWN_TYPE" required>
+        </br>
+        <label>What would you want to avail?</label>
+        </br>
+        Boarding <input type="checkbox" name="Boarding" id="avail"> </br>
+        Fooding <input type="checkbox" name="Fooding" id="avail"> </br>
+        Sight Seeing <input type="checkbox" name="Sight Seeing" id="avail"> </br>
+        <label>Discount Coupon code:</label>
+        </br>
+        <input type="text" name="coupon" id="coupon" placeholder="UNKNOWN_TYPE">
+        </br>
+        <label>Terms and conditions*</label>
+        </br>
+        <input type="radio" name="terms" value="I agree" required> I agree
+        <input type="radio" name="terms" value="I disagree" required> I disagree
+        </br>
+        <input type="submit" value="Complete reservation">
+
+    </form>
+</body>
+
+</html>
