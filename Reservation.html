@@ -34,17 +34,20 @@
         </br>
         <label>What would you want to avail?</label>
         </br>
-        Boarding <input type="checkbox" name="Boarding" id="avail"> </br>
-        Fooding <input type="checkbox" name="Fooding" id="avail"> </br>
-        Sight Seeing <input type="checkbox" name="Sight Seeing" id="avail"> </br>
+        <label for="Boarding">Boarding</label>
+        <input type="checkbox" name="Boarding" id="Boarding" value="Boarding"> </br>
+        <label for="Fooding">Fooding</label> 
+        <input type="checkbox" name="Fooding" id="Fooding" value="Fooding"> </br>
+        <label for="Sight Seeing" >Sight Seeing</label> 
+        <input type="checkbox" name="Sight Seeing" id="Sight Seeing" value="Sight Seeing"> </br>
         <label>Discount Coupon code:</label>
         </br>
         <input type="text" name="coupon" id="coupon" placeholder="UNKNOWN_TYPE">
         </br>
         <label>Terms and conditions*</label>
         </br>
-        <input type="radio" name="terms" value="I agree" required> I agree
-        <input type="radio" name="terms" value="I disagree" required> I disagree
+        <input type="radio" name="terms" id="I agree" value="I agree" required> <label for="I agree" >I agree</label>
+        <input type="radio" name="terms" id="I disagree" value="I disagree" required> <label for="I disagree" >I disagree</label> 
         </br>
         <input type="submit" value="Complete reservation">
 
