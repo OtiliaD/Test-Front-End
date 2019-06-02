@@ -12,3 +12,16 @@ div
 {
     border: 1px solid black;
 }
+h1,h2
+{
+font-family: 'Noto Sans KR', sans-serif;
+}
+img
+{
+    height: 150px; 
+    width: 150px;
+}
+p
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
