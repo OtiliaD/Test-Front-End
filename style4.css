@@ -1,0 +1,38 @@
+div
+{
+  border: 3px solid green;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+nav
+{
+  width: 130px;
+  border: 3px solid palevioletred;
+  position: fixed;
+  display: inline-block;
+}
+ul
+{
+  padding: 5px 0px 0px 30px;
+}
+section
+{
+  padding: 10px;
+  margin-left: 136px;
+  border: 3px solid yellow;
+  display: inline-block;
+}
+footer
+{
+  
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+  border-bottom: hidden;
+}
+body
+{
+  margin-bottom: 8px;
+}
