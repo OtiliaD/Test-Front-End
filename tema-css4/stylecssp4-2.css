@@ -1,0 +1,73 @@
+body {
+display: flex;
+justify-content: space-between;
+flex-flow: row wrap;
+width: 100%;
+height: 100%;
+margin: auto;
+}
+#firstboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#secondboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#thirdboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#vertical{
+    background-color: turquoise;
+    height: 26vh;
+    width: 31vw;
+    margin-bottom: 4px;
+    color: white;
+}
+#tiles{
+    background-color: gold;
+    height: 26vh;
+    width: 31vw;
+    margin-bottom: 4px;
+    
+}
+#middle{
+    background-color: blue;
+    width: 31vw;
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+#img{
+    background-image: url(poze-cssp4/vga.jpg);
+    width: 20vw;
+    height: 30vh;
+    background-size: contain;
+    margin-left: 5vw;
+    
+}
+#tall{
+    background-color: green;
+    width: 32vw;
+    height: 100vh;
+    color: white;
+}
+#wide{
+    background-color: crimson;
+    width: 65vw;
+    height: 40vh;
+    color: white;
+}
+h2{
+    padding-left: 20px;
+}
+h3{
+    padding-left: 20px;
+}
+
