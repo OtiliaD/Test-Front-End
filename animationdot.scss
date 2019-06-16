@@ -1,0 +1,49 @@
+@import '_variables.scss';
+@import '_theme1.scss';
+@import '_mixins.scss';
+
+* { box-sizing: border-box; }
+body {
+    background-color: background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: border;
+    margin: 0;
+}
+
+#reddot {
+  height: $dotheight;
+  width: $dotwidth;
+  background-color: $primary;
+  border-radius: $borderradius;
+  display: inline-block;
+  animation: 1s bounce ease infinite;
+}
+
+
+#yellowdot {
+    height: $dotheight;
+    width: $dotwidth;
+    background-color: $secondary;
+    border-radius: $borderradius;
+    display: inline-block;
+    margin: 2%;
+    animation: 1s bounce ease infinite;
+    animation-delay: 0.2s;
+  }
+  #bluedot {
+    height: $dotheight;
+    width: $dotwidth;
+    background-color: $primary;
+    border-radius: $borderradius;
+    display: inline-block;
+    animation: 1s bounce ease infinite;
+    animation-delay: 0.4s;
+  }
+ 
+@keyframes bounce {
+  50% {
+  @include bounce(200px, -100px);}
+}
